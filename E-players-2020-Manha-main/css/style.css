@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,700;1,400&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
 
 :root{
 
@@ -13,7 +6,15 @@
     --red: #C20000;
     --blue: #001F70;
     --gradient: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+
     --font: 'Titillium Web', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: var( --font );
@@ -26,12 +27,14 @@ img{
 .topo{
     width: 100%;
     height: 5em;
+    /* background-color: azure; */
 }
 .content{
     width: 80%;
     height: 100%;
     max-width: 75em;
     margin: auto;
+    /* background-color: burlywood; */
 }
 .flex-center-bt{
     display: flex;
@@ -72,12 +75,14 @@ img{
 .banner-position{
     width: 100%;
     height: 100%;
+    /* background-color: rgba(0, 0, 255, 0.377); */
     position: absolute;
     top: 0;
 }
 .banner-content{
     width: 80%;
     height: 100%;
+    /* background-color: rgba(222, 184, 135, 0.356); */
     margin: auto;
     display: flex;
     justify-content: flex-end;
@@ -85,6 +90,7 @@ img{
 .banner-text{
     width: 50%;
     height: 100%;
+    /* background-color: chartreuse; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,6 +116,7 @@ img{
 .jogos{
     width: 100%;
     height: 7.5em;
+    /* background-color: chartreuse; */
 }
 .jogos ul{
     list-style-type: none;
@@ -143,6 +150,7 @@ img{
 .about-position{
     width: 100%;
     height: 100%;
+    /* background-color: rgba(255, 0, 0, 0.397); */
     position: absolute;
     top: 0;
 }
@@ -163,39 +171,7 @@ img{
 .about-position img{
     max-width: 31.87em;
 }
-.games-aovivo::after{
-    content: "";
-    border: solid 1px #fff;
-    height: 2em;
-    margin-left: 1em;
-}
-.games-aovivo, .games-embreve{
-    display: flex;
-    color: #fff;
-    align-items: center;
-    font-size: 1.875em;
-    justify-content: space-between;
-}    
-.partida{
-    width: 9.5em;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 1em;
-}
-.partida img{
-    width: 1.8em;
-}
-.time1, .time2{
-    display: flex;
-    align-items: center;
-}
-.time1 img{
-    margin-left: 0.5em;
-}
-.time2 img{
-    margin-right: 0.5em;
-}
+
 @media screen and (max-width: 74.93em){
 
 }
@@ -205,5 +181,5 @@ img{
 }
 
 @media screen and (max-width: 35.93em){
-    
+   
 }
